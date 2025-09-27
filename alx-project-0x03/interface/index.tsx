@@ -4,6 +4,10 @@ export interface LayoutProps {
   children: ReactNode;
 }
 
+export interface PageRouteProps {
+  pageRoute: string;
+}
+
 export interface ButtonProps {
   buttonLabel: string;
   buttonSize?: string;
