@@ -9,7 +9,7 @@ const Header: React.FC = () => {
 
   return (
     <header className='fixed w-full bg-white shadow-md'>
-      <div className='container mx-auto flex justify-between items-center py-6 px-4 md:px-8'>
+      <div className='container mx-auto flex gap-14 items-center py-6 px-4 md:px-8'>
         <Link
           href='/'
           className='text-3xl md:text-5xl font-bold text-gray-800 tracking-tight'
